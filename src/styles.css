@@ -7,6 +7,8 @@ html, body{
   font-family: sans-serif;
   background-color: #013766;
   color: #57E1ED;
+  min-height: 100vh;
+  padding-bottom: 300px;
 }
 
 .wrap{
