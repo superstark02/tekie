@@ -24,9 +24,9 @@ class MyList extends Component {
         return (
             <div className="wrap" >
                 <div style={{width:"600px"}} >
-                    <div>
+                    <div className="input-ctn" >
                         <input onChange={(e)=>{this.setState({search:e.target.value})}} placeholder="Search" className="search-input" />
-
+                        <img width="20px" alt="search" src="https://img.icons8.com/windows/50/000000/search--v1.png"/>
                     </div>
 
                     <div style={{margin:"20px 0px"}} >
