@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./list-item.css"
 
 class ListItem extends Component {
-    render() {
+    render() {        
         return (
             <div>
                 <div>
@@ -14,7 +14,7 @@ class ListItem extends Component {
                     </div>
                     <div>
                         <div>
-                            {this.props.data.home_port}
+                            Port: {this.props.data.home_port}
                         </div>
                         <div>
                             {this.props.data.roles}
